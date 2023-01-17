@@ -276,13 +276,13 @@ a:hover {
 
 .botao-ir-para-o-topo {
   position: fixed;
-  bottom: 0;
-  right: 5px;
+  bottom: 2.5rem;
+  right: 1rem;
 }
 
 .fa-arrow-circle-up {
   font-size: 50px;
-  color: rgb(0, 0, 0);
+  color:  #7A7A7A94;
 }
 
 .o-que-faremos-texto {
