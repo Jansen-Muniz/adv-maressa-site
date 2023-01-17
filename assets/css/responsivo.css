@@ -268,21 +268,21 @@
 
 @media(max-width: 720px) {
   .titulo {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .texto-h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .texto-h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .titulo,
   .texto-h2,
   .texto-h3 {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .link-telefone,
@@ -354,7 +354,7 @@
   }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 500px) {
   .container-imagem {
     width: 15rem;
     height: auto;
@@ -367,6 +367,18 @@
   .texto-direitos-reservados,
   .desenvolvido-por {
     font-size: .5rem;
+  }
+
+  .titulo {
+    font-size: 3rem;
+  }
+
+  .texto-h2 {
+    font-size: 1.6rem;
+  }
+
+  .texto-h3 {
+    font-size: 1.2rem;
   }
 }
 
@@ -407,17 +419,11 @@
   }
 
   .texto-h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .texto-h3 {
-    font-size: .8rem;
-  }
-
-  .titulo,
-  .texto-h2,
-  .texto-h3 {
-    margin-top: 3rem;
+    font-size: 1.2rem;
   }
 
   .div-h2 {
