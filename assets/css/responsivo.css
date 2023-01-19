@@ -42,7 +42,7 @@
   }
 
   .nav-link {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .abrir {
@@ -89,25 +89,9 @@
     border: none;
     cursor: pointer;
   }
-
-  .logo-rodape {
-    padding-top: .3rem;
-    width: 13rem;
-  }
-
-  .info-contato {
-    margin: 1rem;
-    font-size: 1.2rem;
-  }
-
-  .endereco
-  .fa-whatsapp,
-  .fa-envelope {
-    font-size: .8rem;
-  }
 }
 
-@media(max-width: 999px) {
+@media(max-width: 1040px) {
   .conteudo-principal {
     background-image: url('/assets/img/imagem-princ-reduzida.jpg');
   }
@@ -224,20 +208,6 @@
     padding: .5rem;
   }
 
-  .rodape {
-    height: 23rem;
-  }
-
-  .logo-rodape {
-    padding-top: .5rem;
-    width: 13rem;
-  }
-
-  .info-contato {
-    margin: 1rem;
-    font-size: 1rem;
-  }
-
   .endereco,
   .fa-whatsapp,
   .fa-envelope {
@@ -245,12 +215,13 @@
   }
 
   .container-rodape {
-    width: 18rem;
+    width: 30rem;
+    display: flex;
     flex-direction: column;
   }
 
   .div-direitos-reservados {
-    margin-top: 25rem;
+    bottom: -2rem;
   }
 
   .texto-direitos-reservados {
@@ -290,10 +261,6 @@
     font-size: .7rem;
   }
 
-  .nav-link {
-    font-size: .8rem;
-  }
-
   .logo {
     width: 6rem;
   }
@@ -329,28 +296,31 @@
   }
 
   .icone-botao-wa,
-  .texto-whatsapp {
-    font-size: .7rem;
-  }
-
-  .rodape {
-    height: 20rem;
-  }
-
-  .container-endereco-rodape,
-  .whatsapp-rodape,
-  .email-rodape,
+  .texto-whatsapp,
   .texto-direitos-reservados,
   .desenvolvido-por {
     font-size: .7rem;
   }
 
+  .titulo-contato{
+    font-size: 2rem;
+  }
+
+  .container-rodape {
+    width: auto;
+  }
+
+  .container-endereco-rodape,
+  .whatsapp-rodape,
+  .email-rodape{
+    font-size: 1rem;
+  }
+
   .div-direitos-reservados {
     width: 100%;
-    height: 2rem;
-    margin-top: 20rem;
     text-align: center;
     flex-direction: column;
+    bottom: -5rem;
   }
 }
 
@@ -366,7 +336,7 @@
 
   .texto-direitos-reservados,
   .desenvolvido-por {
-    font-size: .5rem;
+    font-size: .6rem;
   }
 
   .titulo {
@@ -383,6 +353,10 @@
 
   .botao-ir-para-o-topo {
     right: 0;
+  }
+
+  .container-endereco-rodape, .whatsapp-rodape, .email-rodape {
+    font-size: .8rem;
   }
 }
 
@@ -453,6 +427,10 @@
   }
 
   .container-imagem {
+    width: 15rem;
+  }
+
+  .logo-rodape{
     width: 15rem;
   }
 }
