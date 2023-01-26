@@ -38,7 +38,7 @@ aside .container-link{
 
 .container-link .texto-link-pag{
   color:white;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .container-link .texto-link-pag:hover{
@@ -185,6 +185,12 @@ i, .texto-item{
   .container-responsivo .container-logo-texto-responsivo{
     top: 15.2rem;
   }
+
+  .container-responsivo .container-link{
+    margin: .5rem auto;
+    width: 10rem;
+    text-align: center;
+  }
 }
 
 @media(max-width: 450px){
@@ -197,17 +203,21 @@ i, .texto-item{
   }
 }
 
-@media(max-width: 445px){
+@media(max-width: 414px){
   ul{
-    line-height: 1.2rem;
+    line-height: 2rem;
   }
 
   i, .texto-item{
-    font-size: .6rem;
+    font-size: 1rem;
+  }
+
+  .container-responsivo .texto-link-pag{
+    font-size: 1rem;
   }
 
   .container-responsivo .container-logo-texto-responsivo{
-    top: 14.8rem;
+    top: 29.1rem;
   }
 
   .container-responsivo .container-logo-texto-responsivo{
@@ -215,13 +225,56 @@ i, .texto-item{
   }
 }
 
-@media(max-width: 400px){
-  .container-responsivo .container-link{
-    margin: .5rem auto;
-    width: 10rem;
+@media(max-width: 412px){
+  .container-responsivo .container-logo-texto-responsivo{
+    top: 26rem;
+  }
+}
+
+@media(max-width: 393px){
+  ul{
+    line-height: 1.5rem;
   }
 
   .container-responsivo .texto-link-pag{
+    font-size: 1rem;
+  }
+
+  .container-responsivo .container-logo-texto-responsivo{
+    top: 26.2rem;
+  }
+}
+
+@media(max-width: 375px){
+  ul{
+    line-height: 1.4rem;
+  }
+
+  .container-responsivo .container-logo-texto-responsivo{
+    top: 27.2rem;
+  }
+}
+
+@media(max-width: 360px){
+  ul{
+    line-height: 1.5rem;
+  }
+
+  .container-responsivo .container-logo-texto-responsivo{
+    top: 21.8rem;
+  }
+}
+
+@media(max-width: 320px){
+  ul{
+    line-height: 1rem;
+  }
+
+  .container-responsivo .container-logo-texto-responsivo{
+    top: 15.8rem;
+  }
+
+  i, .texto-item{
     font-size: .7rem;
   }
 }
