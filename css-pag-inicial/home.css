@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'EB Garamond', serif;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 100vh;
+  background-image: url('/img-pag-inicial/imagem-principal.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+aside{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+aside .container-link{
+  background:  rgb(100, 32, 32);
+  border-radius: 2rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 1.3rem;
+  width: 17rem;
+  margin: auto;
+}
+
+.container-link .link-pag{
+  text-decoration: none;
+}
+
+.container-link .texto-link-pag{
+  color:white;
+  font-size: 1rem;
+}
+
+.container-link .texto-link-pag:hover{
+  color: rgb(197, 123, 123);
+}
+
+.logo{
+  width: 15rem;
+}
+
+.container-logo-texto{
+  background-color: rgb(100, 32, 32);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 2rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+.container-responsivo{
+  display:none;
+}
+
+ul{
+  line-height: 2rem;
+  list-style-type: none;
+}
+
+i, .texto-item{
+  color: white;
+  font-size: 1.2rem;
+}
+
+@media(max-width: 1200px){
+  .container-responsivo{
+    display: none;
+  }
+
+  .logo{
+    width: 12rem;
+  }
+
+  aside{
+    margin-right: 1rem;
+  }
+
+  .container-logo-texto{
+    padding: 1rem;
+  }
+
+  ul{
+    line-height: 1.2rem;
+  }
+  
+  i, .texto-item{
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 999px){ 
+  ul{
+    line-height: 1.4rem;
+  }
+  
+  i, .texto-item{
+    font-size: .8rem;
+  }
+}
+
+@media(max-width: 600px){
+  .logo{
+    width: 10rem;
+  }
+
+  i, .texto-item{
+    font-size: .7rem;
+  }
+}
+
+@media(max-width: 550px){
+  main{
+    display: none;
+  }
+
+  aside{
+    display: none;
+  }
+
+  .container{
+    background-image: url('/img-pag-inicial/imagem-principal-responsiva.jpg');
+    background-size: cover;
+    grid-template-columns: none;
+  } 
+
+  .container-responsivo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-responsivo .container-link{
+    background:  rgb(100, 32, 32);
+    border-radius: 2rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.3rem;
+    width: 14rem;
+    margin: .5rem;
+    position: relative;
+  }
+
+  .container-responsivo .texto-link-pag{
+    color: white;
+  }
+
+  .container-responsivo .container-logo-texto-responsivo{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(100, 32, 32);
+    position: relative;
+    top: 15.1rem;
+    padding: .8rem;
+    display: flex;
+  }
+
+  i, .texto-item{
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 475px){
+  ul{
+    line-height: 1.5rem;
+  }
+
+  .logo{
+    width: 8rem;
+  }
+
+  i, .texto-item{
+    font-size: .8rem;
+  }
+
+  .container-responsivo .container-logo-texto-responsivo{
+    top: 15.2rem;
+  }
+}
+
+@media(max-width: 450px){
+  ul{
+    line-height: 1.5rem;
+  }
+
+  .container-responsivo .container-logo-texto-responsivo{
+    top: 15.2rem;
+  }
+}
+
+@media(max-width: 445px){
+  ul{
+    line-height: 1.2rem;
+  }
+
+  i, .texto-item{
+    font-size: .6rem;
+  }
+
+  .container-responsivo .container-logo-texto-responsivo{
+    top: 14.8rem;
+  }
+
+  .container-responsivo .container-logo-texto-responsivo{
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 400px){
+  .container-responsivo .container-link{
+    margin: .5rem auto;
+    width: 10rem;
+  }
+
+  .container-responsivo .texto-link-pag{
+    font-size: .7rem;
+  }
+}
