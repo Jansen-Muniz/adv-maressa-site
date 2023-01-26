@@ -320,7 +320,7 @@
     width: 100%;
     text-align: center;
     flex-direction: column;
-    bottom: -5rem;
+    bottom: -4rem;
   }
 }
 
@@ -432,5 +432,9 @@
 
   .logo-rodape{
     width: 15rem;
+  }
+
+  .div-direitos-reservados {
+    bottom: -6rem;
   }
 }
