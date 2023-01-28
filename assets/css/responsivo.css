@@ -457,11 +457,11 @@
   }
 
   .botao-wa {
-    width: auto;
+    width: 13rem;
   }
 
   .texto-whatsapp{
-    font-size: auto;
+    font-size: .5rem;
   }
 }
 
@@ -482,15 +482,11 @@
     font-size: .6rem;
   }
 
-  .container-imagem {
+  .botao-wa{
     width: 13rem;
   }
 
-  .botao-wa {
-    width: 14rem;
-  }
-
-  .texto-whatsapp{
-    font-size: .6rem;
+  .container-imagem {
+    width: 13rem;
   }
 }
