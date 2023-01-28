@@ -431,10 +431,66 @@
   }
 
   .logo-rodape{
-    width: 15rem;
+    width: 13rem;
   }
 
   .div-direitos-reservados {
     bottom: -6rem;
+  }
+}
+
+@media(max-width: 360px){
+  .container-texto-principal {
+    height: 18rem;
+  }
+
+  .titulo {
+    font-size: 1.8rem;
+  }
+
+  .texto-h2 {
+    font-size: 1rem;
+  }
+
+  .texto-h3 {
+    font-size: .8rem;
+  }
+
+  .botao-wa {
+    width: auto;
+  }
+
+  .texto-whatsapp{
+    font-size: auto;
+  }
+}
+
+@media(max-width:320px){
+  .container-texto-principal {
+    height: 16rem;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
+  }
+
+  .texto-h2 {
+    font-size: .8rem;
+  }
+
+  .texto-h3 {
+    font-size: .6rem;
+  }
+
+  .container-imagem {
+    width: 13rem;
+  }
+
+  .botao-wa {
+    width: 14rem;
+  }
+
+  .texto-whatsapp{
+    font-size: .6rem;
   }
 }
