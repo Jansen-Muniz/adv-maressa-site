@@ -445,7 +445,7 @@
   }
 
   .titulo {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .texto-h2 {
@@ -471,7 +471,7 @@
   }
 
   .titulo {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .texto-h2 {
@@ -480,10 +480,6 @@
 
   .texto-h3 {
     font-size: .6rem;
-  }
-
-  .botao-wa{
-    width: 13rem;
   }
 
   .container-imagem {
