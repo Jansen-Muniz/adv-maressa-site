@@ -49,8 +49,12 @@
     display: block;
   }
 
-  .div-h2, .div-quem-somos {
+  .div-h2{
     margin: 0 4rem;
+  }
+
+  .container-servicos-o-que-faremos{
+    margin: 0 10rem;
   }
 
   .container-aposentadoria,
@@ -101,10 +105,6 @@
     height: 30rem;
   }
 
-  .div-quem-somos {
-    margin: 0;
-  }
-
   .link-telefone,
   .link-email {
     font-size: 13px;
@@ -118,10 +118,6 @@
     width: 6rem;
   }
 
-  .titulo-quem-somos {
-    font-size: 2rem;
-  }
-
   .titulo {
     margin-top: 5rem;
     font-size: 4rem;
@@ -131,15 +127,14 @@
     margin: 0 2rem;
   }
 
-  .maressa-quem-somos,
+  .container-servicos-o-que-faremos{
+    margin: 0 2rem;
+  }
+
   .titulo-servicos,
   .titulo-aposentadoria,
   .titulo-beneficios {
     font-size: 1.6rem;
-  }
-
-  .texto-item-quem-somos {
-    font-size: 1rem;
   }
 
   .o-que-faremos-texto {
@@ -157,10 +152,6 @@
   .texto-h3,
   .fa-check {
     font-size: 1rem;
-  }
-
-  .div-quem-somos {
-    margin: 0;
   }
 
   .container-aposentadoria,
@@ -237,7 +228,7 @@
   }
 }
 
-@media(max-width: 720px) {
+@media(max-width: 740px) {
   .titulo {
     font-size: 3rem;
   }
@@ -265,7 +256,7 @@
     width: 6rem;
   }
 
-  .div-quem-somos {
+  .container-servicos-o-que-faremos{
     margin: 0;
   }
 
@@ -408,7 +399,6 @@
     margin: 0 1rem;
   }
 
-  .titulo-quem-somos,
   .titulo-servicos,
   .titulo-aposentadoria,
   .titulo-beneficios,
@@ -416,7 +406,6 @@
     font-size: 1.3rem;
   }
 
-  .texto-item-quem-somos,
   .texto-item-aposentadoria,
   .texto-item-beneficios {
     font-size: .8rem;

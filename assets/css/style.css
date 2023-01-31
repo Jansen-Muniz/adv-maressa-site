@@ -125,7 +125,7 @@ a:hover {
   margin-top: 30px;
 }
 
-.div-quem-somos {
+.container-servicos-o-que-faremos {
   background-color: var(--branco);
   margin: 0 15rem;
 }
@@ -134,20 +134,10 @@ a:hover {
   margin: 1rem;
 }
 
-.quem-somos, .servicos {
+.servicos {
   margin-top: auto;
   color: black;
   padding: 8px;
-}
-
-.maressa-quem-somos {
-  margin-top: auto;
-  font-size: 3rem;
-}
-
-.quem-somos-itens {
-  font-size: 1.5rem;
-  line-height: 4rem;
 }
 
 .aposentadoria-beneficios{
@@ -179,17 +169,8 @@ a:hover {
   color: #7A7A7A;
 }
 
-.quem-somos-item {
-  list-style-type: none;
-}
-
-.lista-aposentadoria, .lista-beneficios, .quem-somos-itens i {
+.lista-aposentadoria, .lista-beneficios i {
   color: var(--cor-principal);
-}
-
-.texto-item-quem-somos {
-  font-size: 1.3rem;
-  color: #7A7A7A;
 }
 
 .imagem-aposentadoria {
@@ -225,6 +206,7 @@ a:hover {
 .titulo-mandado-de-seg {
   margin-top: 2rem;
 }
+
 .texto-imagem{
   font-size: 1.2rem;
   margin: 1rem;
