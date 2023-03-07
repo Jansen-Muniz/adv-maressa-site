@@ -223,10 +223,6 @@ i, .texto-item{
     top: 18.8rem;
   }
 
-  .container-logo-texto-responsivo{
-    flex-direction: column;
-  }
-  
   .container-logo-texto-responsivo .logo{
     margin-top: 1rem;
   }
@@ -238,31 +234,49 @@ i, .texto-item{
 
 @media(max-width: 414px){
   .container-responsivo .container-logo-texto-responsivo{
-    top: 35.8rem;
+    top: 39rem;
+  }
+
+  ul{
+    line-height: 1.3rem;
+    padding: .5rem;
+  }
+}
+
+@media(max-width: 412px){
+  .container-responsivo .container-logo-texto-responsivo{
+    top: 28.7rem;
+  }
+}
+
+@media(max-width: 411px){
+  .container-responsivo .container-logo-texto-responsivo{
+    top: 34.4rem;
   }
 }
 
 @media(max-width: 393px){
   .container-responsivo .container-logo-texto-responsivo{
-    top: 28.9rem;
+    top: 32.1rem;
   }
 }
 
 @media(max-width: 375px){
   .container-responsivo .container-logo-texto-responsivo{
-    top: 30.5rem;
+    top: 30.6rem;
+    flex-direction: column;
   }
 }
 
 @media(max-width: 360px){
   .container-responsivo .container-logo-texto-responsivo{
-    top: 26rem;
+    top: 26.2rem;
   }
 }
 
 @media(max-width: 320px){
   .container-responsivo .container-logo-texto-responsivo{
-    top: 15.3rem;
+    top: 15.5rem;
   }
 }
 
