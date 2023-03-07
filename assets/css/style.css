@@ -90,6 +90,7 @@ a:hover {
 .conteudo-principal {
   justify-items: center;
   text-align: center;
+  background-color: var(--cor-principal);
   background: url('/assets/img/imagem-princ.jpg') center center no-repeat fixed;
   background-size:cover;
   width: 100%;

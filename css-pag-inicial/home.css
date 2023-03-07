@@ -8,8 +8,9 @@
 
 .container{
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
   height: 100vh;
+  background-color: black;
   background-image: url('/img-pag-inicial/imagem-principal.jpg');
   background-position: center;
   background-size: cover;
@@ -20,7 +21,7 @@ aside{
   flex-direction: column;
   text-align: center;
   position: relative;
-  left: 28rem;
+  left: 45rem;
 }
 
 aside .container-link{
@@ -218,6 +219,10 @@ i, .texto-item{
 }
 
 @media(max-width: 465px){
+  .container-responsivo .container-logo-texto-responsivo{
+    top: 18.8rem;
+  }
+
   .container-logo-texto-responsivo{
     flex-direction: column;
   }
@@ -228,10 +233,6 @@ i, .texto-item{
 
   ul{
     line-height: 1.5rem;
-  }
-
-  i, .texto-item{
-    font-size: .7rem;
   }
 }
 
