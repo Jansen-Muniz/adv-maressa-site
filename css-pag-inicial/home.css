@@ -170,6 +170,7 @@ i, .texto-item{
 
   aside{
     left:0;
+    top: -2rem;
   }
 
   .texto-item{
@@ -183,6 +184,10 @@ i, .texto-item{
 }
 
 @media(max-width: 320px){
+  aside{
+    top: 0;
+  }
+
     ul{
       line-height: 1.2rem;
     }
