@@ -80,10 +80,6 @@ i, .texto-item{
     grid-template-columns: 1fr 2fr;
   }
 
-  .container-responsivo{
-    display: none;
-  }
-
   aside{
     left: 40rem;
   }
@@ -166,117 +162,32 @@ i, .texto-item{
 }
 
 @media(max-width: 600px){
-  aside{
-    display: none;
-  }
-
   .container{
     background-image: url('/img-pag-inicial/imagem-principal-responsiva.jpg');
     background-size: cover;
     grid-template-columns: none;
   } 
 
-  .container-responsivo{
-    display: flex;
-    flex-direction: column;
+  aside{
+    left:0;
   }
 
-  .container-responsivo .container-link{
-    background:  rgb(100, 32, 32);
-    border-radius: 2rem;
-    border: none;
-    padding: .7rem;
-    border-radius: 1.3rem;
-    margin: 0.5rem auto;
-    position: relative;
+  .texto-item{
+    text-shadow: 3px 1px 2px black;
   }
 
-  .container-responsivo .texto-link-pag{
-    font-size: 1rem;
-  }
-
-  .container-responsivo .container-logo-texto-responsivo{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(100, 32, 32);
-    position: relative;
-    top: 24.4rem;
-    display: flex;
-  }
-
-  .container-logo-texto-responsivo .logo{
-    width: 10rem;
-  }
-
-  .container-responsivo .texto-link-pag{
-    color: white;
-  }
-
-  i, .texto-item{
-    font-size: .7rem;
-  }
-}
-
-@media(max-width: 465px){
-  .container-responsivo .container-logo-texto-responsivo{
-    top: 18.8rem;
-  }
-
-  .container-logo-texto-responsivo .logo{
-    margin-top: 1rem;
-  }
-
-  ul{
-    line-height: 1.5rem;
-  }
-}
-
-@media(max-width: 414px){
-  .container-responsivo .container-logo-texto-responsivo{
-    top: 39rem;
-  }
-
-  ul{
-    line-height: 1.3rem;
-    padding: .5rem;
-  }
-}
-
-@media(max-width: 412px){
-  .container-responsivo .container-logo-texto-responsivo{
-    top: 28.7rem;
-  }
-}
-
-@media(max-width: 411px){
-  .container-responsivo .container-logo-texto-responsivo{
-    top: 34.4rem;
-  }
-}
-
-@media(max-width: 393px){
-  .container-responsivo .container-logo-texto-responsivo{
-    top: 32.1rem;
-  }
-}
-
-@media(max-width: 375px){
-  .container-responsivo .container-logo-texto-responsivo{
-    top: 30.6rem;
-    flex-direction: column;
-  }
-}
-
-@media(max-width: 360px){
-  .container-responsivo .container-logo-texto-responsivo{
-    top: 26.2rem;
+  .container-logo-texto{
+    background-color: rgba(100, 32, 32, 0.596);
+    width: 80vw;
   }
 }
 
 @media(max-width: 320px){
-  .container-responsivo .container-logo-texto-responsivo{
-    top: 15.5rem;
-  }
-}
+    ul{
+      line-height: 1.2rem;
+    }
 
+    i, .texto-item{
+      font-size: 1rem;
+    } 
+}
