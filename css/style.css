@@ -536,6 +536,12 @@ i {
   }
 }
 
+@media (max-width: 900px) {
+  .aposentadoria-beneficios {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
   .menu ul {
     display: none;
@@ -551,51 +557,6 @@ i {
 
   .titulo {
     font-size: 1.8rem;
-  }
-
-  /* Força a permanência lado a lado no celular */
-  /* Força o container a usar toda a largura disponível da tela */
-  .aposentadoria-beneficios {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    /* Espaço bem otimizado entre os dois blocos */
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  /* Ajusta as duas caixas para dividirem o espaço perfeitamente */
-  .container-aposentadoria,
-  .container-beneficios {
-    flex: 1;
-    width: 50%;
-    /* Garante metade da tela para cada */
-    box-sizing: border-box;
-    overflow: hidden;
-    /* Evita que qualquer conteúdo transborde */
-  }
-
-  /* Reduz o tamanho dos textos para não quebrarem muitas linhas */
-  .container-aposentadoria h3,
-  .container-beneficios h3 {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-  }
-
-  .container-aposentadoria ul li,
-  .container-beneficios ul li {
-    word-break: break-word;
-    /* Quebra a palavra se ela for maior que a caixinha */
-    hyphens: auto;
-    /* Adiciona hífen na quebra de linha se o navegador suportar */
-  }
-
-  /* Reduz o tamanho dos ícones SVG principais */
-  .imagem-aposentadoria-svg,
-  .imagem-beneficios-svg {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
   }
 
   .container-imagem {
@@ -648,5 +609,4 @@ i {
   .container-imagem p {
     font-size: 0.8rem;
   }
-
 }
