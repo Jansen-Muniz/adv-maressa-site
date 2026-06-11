@@ -239,10 +239,13 @@ nav li a:hover {
   /* Centraliza e dá espaço para a lista */
 }
 
+.imagem-beneficios, .imagem-aposentadoria {
+  width: 6rem;
+}
+
 .aposentadoria-beneficios,
 .container1,
-.container2,
-.container3 {
+.container2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
@@ -251,7 +254,6 @@ nav li a:hover {
 
 .container-imagem {
   background-size: cover;
-  background-position: center;
   position: relative;
   color: white;
 }
@@ -279,7 +281,6 @@ nav li a:hover {
   align-items: center;
   justify-content: center;
   justify-self: center;
-  width: 100px;
 }
 
 .container1 .consultoria {
@@ -298,12 +299,8 @@ nav li a:hover {
   background: url('../assets/img/img4.png');
 }
 
-.container3 .mandado-de-seguranca {
+.container2 .mandado-de-seguranca {
   background: url('../assets/img/img5.png');
-}
-
-.imagem-beneficios, .imagem-aposentadoria {
-  width: 6rem;
 }
 
 /* TITULOS INTERNOS */
